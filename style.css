@@ -1,0 +1,130 @@
+h1 {
+    color: #69696c;
+    font-style: oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+.navbar {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: aliceblue;
+    position: fixed;
+    right: 50px;
+    font-size: larger;
+}
+
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+  
+    
+    padding: 20px;
+}
+
+/* Profile Box Styling */
+.wholething {
+    margin: 20px; /* Margin around the box */
+    padding: 20px; /* Padding inside the box */
+    border: 2px solid #4ca5af; /* Light blue border */
+    background-color: white; /* White background */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    max-width: 600px; /* Maximum width */
+    margin-left: auto; /* Center horizontally */
+    margin-right: auto; /* Center horizontally */
+}
+
+/* Style for headings */
+.wholething h4 {
+    color: #4ca5af;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+/* Style for links */
+.wholething a {
+    color: #4ca5af;
+    text-decoration: none;
+}
+
+.wholething a:hover {
+    text-decoration: underline;
+}
+
+/* List Styling */
+.profile-box ol, .profile-box ul {
+    padding-left: 20px; /* Adds space for the list markers */
+    margin-left: 0;     /* Removes any additional left margin */
+    list-style-position: inside; /* Makes the bullets or numbers align with the text */
+}
+.wholething ol {
+    padding-left: 20px;
+    margin-top: 20px;
+}
+
+.wholething ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.wholething li {
+    margin: 5px 0;
+}
+
+/* Style for the image */
+.wholething img {
+    display: block;
+    margin: 0 auto 10px;
+    border-radius: 50%; /* Make the image round */
+}
+
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+   
+   
+    padding: 20px;
+    text-align: center; /* Centers the content globally */
+}
+
+/* Links Box Styling */
+.links-box {
+    display: inline-block; /* Makes the box fit the content */
+    background-color: #fff; /* White background for the box */
+    border: 2px solid #4ca5af; /* Light blue border */
+    border-radius: 8px; /* Rounded corners */
+    padding: 20px; /* Padding inside the box */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-top: 20px; /* Space above the box */
+}
+
+.links-box a {
+    display: block; /* Makes each link occupy a new line */
+    text-decoration: none;
+    color: #4ca5af; /* Blue color for the links */
+    font-size: 18px;
+    margin-bottom: 10px; /* Space between links */
+}
+
+.links-box a:hover {
+    color: #333; /* Darker color when hovering */
+    text-decoration: underline; /* Underline on hover */
+}
