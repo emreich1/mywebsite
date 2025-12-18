@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume - Elyse Reichert</title>
+
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="layoutstyles.css">
+    
+    <style>
+        /* Quick fix to ensure the side-by-side layout works if your CSS uses floats or flex */
+        .content-wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .mainbody { flex: 2; padding: 0 20px; }
+        .leftmenu, .rightmenu { flex: 1; min-width: 150px; }
+        .resumelistheading { font-weight: bold; font-size: 1.2rem; margin-top: 15px; }
+        .underline { text-decoration: underline; }
+    </style>
+</head>
+
+<body id="top">
+    <nav class="navbar navbar-light bg-light">
+        <div class="container">
+            <a class="btn btn-primary" href="../index.html">← Back to Home</a>
+            <span class="subheader"> 
+                <a href="resume.html" class="fw-bold">Resume</a> |
+                <a href="aboutme.html">About Me</a>
+            </span>
+        </div>
+    </nav>
+
+    <div class="common header text-center py-4">
+        <img src="../assets/img/elyse resume.jpeg" height="150" class="rounded-circle" alt="Elyse Reichert">
+        <h1 class="mt-2">Elyse Reichert</h1>
+    </div>
+
+    <div class="container content-wrapper">
+        
+        <div class="common leftmenu">
+            <nav class="sticky-top" style="top: 80px;">
+                <h5 class="text-uppercase">Jump To:</h5>
+                <a href="#edu">Education</a> <br>
+                <a href="#exp">Experience</a> <br>
+                <a href="#ski">Skills</a> <br>
+            </nav>
+        </div>
+
+        <div class="common mainbody">
+            <p class="justify"><strong>Mission Statement:</strong> My goal is to become the best version of myself in the pursuit of happiness.</p> 
+            
+            <hr>
+
+            <div id="edu" class="resumelistheading underline">Education</div>
+            <ul>
+                <li><strong>Brigham Young University</strong> - Current</li>
+                <li><strong>Union High School</strong> - Graduate</li>
+            </ul>
+
+            <div id="exp" class="resumelistheading">Experience</div>
+            <ul>
+                <li><strong>Full Time Mission</strong> - Texas Houston East</li>
+                <li><strong>Spilled Milk</strong> - Staff</li>
+                <li><strong>Beachin'</strong> - Staff</li>
+                <li><strong>MTC</strong> - Teacher and In-Field Mentor</li>
+            </ul>
+
+            <div id="ski" class="resumelistheading">Skills</div>
+            <ul>
+                <li>Database design development & SQL</li>
+                <li>Entity-Relationship Diagramming</li>
+                <li>Tableau & Excel (Solver, Pivot tables)</li>
+                <li>HTML, CSS, Bootstrap</li>
+                <li>Visual Basic For Applications (VBA)</li>
+                <li>Spunk</li>
+            </ul>
+
+            <div class="py-5">
+                <a href="#top" class="btn">Back To Top ↑</a>
+            </div>
+        </div>
+
+        <div class="common rightmenu text-center">  
+            <div class="card p-3 shadow-sm">
+                
+                <p class="mb-1">Future Wife</p>
+                <p class="text-muted">Provo, Utah <br><strong>#gocougs</strong></p>
+                <hr>
+                <p>See my <a href="https://www.facebook.com/share/15S8B6e981/?mibextid=LQQJ4d" target="_blank">Facebook Page</a></p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="common footer bg-black text-white text-center py-3 mt-5">
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
